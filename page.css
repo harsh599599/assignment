@@ -1,0 +1,58 @@
+
+
+
+#imagesMain{
+
+    position:relative;
+    display: inline-block;
+width: 15%;
+    
+    height:250px;
+    margin-bottom: 10px; 
+
+    
+margin-left: 5px;
+margin-right:  
+    text-align:center;
+
+}
+#imagesMain img{
+   
+  width: 100%;
+    margin-left:-4px; 
+    text-align: center;
+    /* trick for remove the space beetwen */
+}
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 25%;
+ font-size: 20px;
+ height: 50px;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.product-name {
+  height: 3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: blue;
+}
+.pagination a{
+	color:#fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	background: #C0C0C0;
+
+}
+.pagination a:hover,.pagination a:active{
+	color: #fff;
+	background-color: #FFA500;
+}
